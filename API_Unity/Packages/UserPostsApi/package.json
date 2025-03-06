@@ -1,0 +1,6 @@
+{
+	"name": "com.edvins.userpostsapi",
+	"version": "1.0.0",
+	"displayName": "User Posts API",
+	"description": "A package for integrating User Posts API into Unity."
+}
