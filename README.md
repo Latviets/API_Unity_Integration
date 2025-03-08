@@ -4,6 +4,9 @@ This Unity project demonstrates how to integrate an external Web API into a Unit
 Project developed using Unity's Universal 2D pipeline.
 Backend API developed with ASP.NET Web API.
 
+![API integration within Unity](https://github.com/user-attachments/assets/669ed461-734c-44fb-9c05-8950d8bbbf56)
+
+--
 ## Features
 - Integration with a RESTful Web API.
 - Fetches user data (name, email, and address).
