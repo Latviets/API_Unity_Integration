@@ -20,7 +20,7 @@ public class UserData : MonoBehaviour
         }
 
         int userId;
-        if (!int.TryParse(UserIdInput.text, out userId))
+        if (!int.TryParse(UserIdInput.text, out userId) || userId <= 0)
         {
             string errorMessage = "Invalid User ID! Please enter a valid number.";
             Debug.LogWarning(errorMessage);
@@ -43,7 +43,7 @@ public class UserData : MonoBehaviour
         }
 
         int userId;
-        if (!int.TryParse(UserIdInput.text, out userId))
+        if (!int.TryParse(UserIdInput.text, out userId) || userId <= 0)
         {
             string errorMessage = "Invalid User ID! Please enter a valid number.";
             Debug.LogWarning(errorMessage);
@@ -68,7 +68,7 @@ public class UserData : MonoBehaviour
         }
         else if (task.Result == null)
         {
-            string errorMessage = "Error: No user data returned from the server.";
+            string errorMessage = "User not found. No user data returned from the server.";
             Debug.LogError(errorMessage);
             ApiResponseDisplay.text = errorMessage;
         }
