@@ -14,11 +14,6 @@ Backend API developed with ASP.NET Web API.
 - Displays all fetched information directly on the game screen using Unity's text elements.
 - Error handling for invalid input or server failures.
 
-## Requirements
-- Unity 2021.3 or newer (supporting Universal 2D projects).
-- TextMeshPro package included in the project.
-- ASP.NET Web API to provide the backend data for user details and posts.
-
 ## How to Run the Project
 1. Clone the repository:
    
@@ -38,4 +33,3 @@ Backend API developed with ASP.NET Web API.
 ## Error Handling
 - Invalid or Missing Input: Displays an error message on the game screen and logs it in the console.
 - Server Errors or Invalid Responses: Displays an error message and handles null or invalid API responses gracefully.
-
